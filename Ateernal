@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* CSS starts here */
+        body {
+            /* Set the background image from a local file */
+        
+
+            /* If your image is in a subfolder named 'images', it would be: */
+             background-image: url"C:\Users\maity\OneDrive\Desktop\banks\GettyImages-1364317541-860x574.jpg"
+
+            /* Background image properties (optional, but highly recommended for good design) */
+            background-size: cover; /* Scales the image to cover the entire background */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            background-attachment: fixed; /* Makes the background fixed while content scrolls */
+
+            /* Basic text styling for better readability over the background */
+            color: #fff; /* White text for contrast, adjust as needed */
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0; /* Remove default body margin */
+            padding: 0; /* Remove default body padding */
+            min-height: 100vh; /* Ensure body takes full viewport height for fixed background */
+            display: flex; /* Use flexbox for layout */
+            flex-direction: column; /* Arrange items vertically */
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background for header */
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0; /* Remove default h1 margin */
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for main content */
+            border-radius: 8px;
+            flex-grow: 1; /* Allow main content to grow and push footer down */
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            text-align: center;
+            margin-top: auto; /* Push footer to the bottom when main content is short */
+        }
+        /* CSS ends here */
+    </style>
+</head>
+<body>
+    <header><h3>Hello I am Somreeta , Nice to meet you.</h3>
+       <div class="profile-image">
+  <img src="C:\Users\maity\OneDrive\Desktop\notdiananotpanty.webp" style=width:200px;height:200px; ></div>
+  </div>
+    </header>
+
+    <main>
+        <p>As a computer science major with expertise in AWS, I am eager to explore career opportunities in software development and business
+analytics. With a robust foundation in programming, problem-solving, and data analysis, I am poised to leverage my technical acumen
+and analytical mindset to drive innovation and contribute meaningfully to dynamic teams.My projects are uploaded in github.You can find me on LinkedIn as Somreeta Maity.
+    </main>
+
+
+
+
+    <footer>
+        <p>&copy;
+            github id:https://github.com/Somreeta-maity;<br>
+            email:ateermos@gmail.com</p>
+    </footer>
+</body>
+</html>
+
